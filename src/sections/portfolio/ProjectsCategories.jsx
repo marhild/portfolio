@@ -10,7 +10,7 @@ const ProjectsCategories = ({categories, onFilterProjects}) => {
     }
 
   return (
-    <div className='portfolio__categories'>
+    <div className='portfolio__categories' data-aos="fade-up">
         {
             categories.map(category => (
                 <CategoryButton key={category} category={category} onChangeCategory={() => changeCategoryHandler(category)} className={`btn cat__btn ${activeCategory === category ? 'primary' : 'white'}`}/>

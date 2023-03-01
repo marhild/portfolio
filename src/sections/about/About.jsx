@@ -10,11 +10,11 @@ const About = () => {
     <section id="about">
         <div className="container about__container">
             <div className="about__left">
-                <div className="about__portrait">
+                <div className="about__portrait"  data-aos="fade-in">
                     <img src={AboutImage} alt="About Image" />
                 </div>
             </div>
-            <div className="about__right">
+            <div className="about__right"  data-aos="fade-down">
                 <h2>About Me</h2>
                 <div className="about__cards">
                     {
