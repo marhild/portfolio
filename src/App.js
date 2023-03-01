@@ -2,7 +2,6 @@ import './App.css';
 import Navbar from './sections/navbar/Navbar';
 import About from './sections/about/About';
 import Contact from './sections/contact/Contact';
-import FAQs from './sections/faqs/FAQs';
 import LastLayer from './sections/footer/LastLayer';
 import Portfolio from './sections/portfolio/Portfolio';
 import Services from './sections/services/Services';
@@ -19,7 +18,6 @@ function App() {
       <Services/>
       <Portfolio/>
       <Testimonials/>
-      <FAQs/>
       <Contact/>
       <LastLayer/>
       {/*<FloatingNav/>*/}
