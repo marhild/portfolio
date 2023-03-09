@@ -51,11 +51,8 @@ function App() {
   return (
     <main className={`${themeState.primary} ${themeState.background}`} ref={mainRef}>
       <Navbar/>
-      <FirstLayer/>
       <About/>
-      <Services/>
       <Portfolio/>
-      <Testimonials/>
       <Contact/>
       <LastLayer/>
       <Modal/>
