@@ -15,7 +15,6 @@ const About = () => {
                 </div>
             </div>
             <div className="about__right"  data-aos="fade-down">
-                <h2>About Me</h2>
                 <div className="about__cards">
                     {
                         data.map(item => (
@@ -28,10 +27,12 @@ const About = () => {
                     }
                 </div>
                 <p>
-                Building projects my clients love have always been my passion. Being in the web development industry for over 3 years and serving more than 70 happy clients worldwide, I'm always motivated to do more!
+                My experience in web development includes Angular, React, Flutter, and other programming languages and frameworks, as well as experience with MySQL, MongoJS and the observability platform Grafana. I enjoy creating websites that not only look great but also function seamlessly for users. In addition, I am comfortable working with cross-functional teams, including designers, project managers, and other developers.                </p>
+                <p>
+                Throughout my career, I have worked on a variety of web development projects, ranging from mobile apps, small websites for local businesses to e-commerce platforms. I am always eager to learn new technologies and approaches to web development as well as staying up-to-date with the latest industry trends.
                 </p>
                 <p>
-                Hi, my name is Hajia Bintu from Accra, Ghana. I'm a full-stack web developer with a Bachelors degree in Computer Science. My top priority is to get your business online the right way, giving you industry-standard design and all the functionality you need to operate smoothly online. Get in touch today with the details of your project let's get started! Check out my resume below!
+                I am excited about the opportunity to work with a company that is committed to delivering high-quality digital solutions to its clients, and I believe that my experience and passion for web development would be an asset to your team.
                 </p>
                 <a href={CV} download className='btn primary'>Download CV <HiDownload/></a>
             </div>
